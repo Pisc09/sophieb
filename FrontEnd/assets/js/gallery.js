@@ -286,16 +286,6 @@ const selectCategories = fetch("http://localhost:5678/api/categories")
 const btnValider = document.querySelector(".pointeur");
 console.log(btnValider);
 
-// if (titleInput.value.trim() === "" && categorySelect.value.trim() === "") {
-//   btnValider.disabled = true;
-//   btnValider.classList.add("disabled");
-// }
-
-// if (titleInput.value.trim() !== "" && categorySelect.value.trim() !== "") {
-//   btnValider.disabled = false;
-//   btnValider.classList.remove("disabled");
-// }
-
 formulaire.addEventListener("submit", function (e) {
   e.preventDefault(); // Empêche le comportement de soumission par défaut
 
